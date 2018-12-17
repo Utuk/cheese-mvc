@@ -7,11 +7,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 
+//import java.text.AttributedString;
 import java.util.ArrayList;
 import javax.servlet.http.HttpServletRequest;    //(imported for HttpServletRequest method of importing data)
 
 @Controller
-@RequestMapping("cheese")
+@RequestMapping(value = "cheese")
 public class CheeseController {
 
     static ArrayList<String> cheeses = new ArrayList<>();
